@@ -54,7 +54,7 @@ const Nav = () => {
             </Text>
         <Flex justify={"between"} gapX={"5"}>
             <button><TiShoppingCart className="text-white text-4xl hover:scale-105 duration-500" /></button>
-            <button onClick={()=> toggleNav()}><RxHamburgerMenu className="text-white text-5xl hover:-rotate-90 duration-500" /></button>
+            <button onClick={()=> toggleNav()}><RxHamburgerMenu className="text-white text-5xl" /></button>
         </Flex>
     </Flex>
     <Flex direction={"column"} gapY={"6"} className="text-white my-5 tracking-[.40rem] font-bold ">
